@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fbf8f3;
+  color: #26211d;
+  line-height: 1.5;
+}
+
+.encabezado {
+  background-color: #1e1916;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.encabezado h1 {
+  font-size: 1.4rem;
+  color: #f0cb79;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 1rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 4px;
+}
+
+.menu a:hover,
+.menu a.activo {
+  background-color: #b68934;
+  color: #ffffff;
+}
+
+.contenedor {
+  max-width: 980px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.portada {
+  background-color: #ffffff;
+  border: 1px solid #eadcc6;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.img-portada {
+  width: 100%;
+  max-height: 360px;
+  object-fit: cover;
+  display: block;
+}
+
+.portada-info {
+  padding: 1.5rem;
+}
+
+.portada-info h2 {
+  margin-bottom: 0.5rem;
+  color: #26211d;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #b68934;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #966e24;
+}
+
+.destacados h3,
+.catalogo-cabecera h2 {
+  margin-bottom: 1rem;
+  color: #26211d;
+}
+
+.catalogo-cabecera {
+  margin-bottom: 1.5rem;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.tarjeta {
+  background-color: #ffffff;
+  border: 1px solid #eadcc6;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+  display: block;
+}
+
+.tarjeta h3,
+.tarjeta h4 {
+  margin-bottom: 0.4rem;
+}
+
+.etiqueta {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  background-color: #f6ead2;
+  color: #7c5817;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.pie {
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2.5rem;
+  background-color: #1e1916;
+  color: #d6c7ae;
+  font-size: 0.9rem;
+}
